@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Base64 Encoder/Decoder",
+  "version": "1.0",
+  "description": "Encode and decode text to/from Base64 with support for Unicode, newlines, and special characters",
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite",
+    "notifications",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "Sanjay Pandey",
+  "homepage_url": "https://github.com/sgpandey123/base64utility",
+  "offline_enabled": true,
+  "incognito": "split"
+} 
